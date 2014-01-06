@@ -38,3 +38,10 @@ var DatepickerDemoCtrl = function ($scope) {
     $scope.formats = ['dd-MMMM-yyyy', 'yyyy/MM/dd', 'shortDate'];
     $scope.format = $scope.formats[0];
 };
+function DropdownCtrl($scope) {
+    $scope.items = [
+        "The first choice!",
+        "And another choice for you.",
+        "but wait! A third!"
+    ];
+}
