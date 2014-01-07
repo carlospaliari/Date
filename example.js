@@ -1,4 +1,4 @@
-angular.module('plunker', ['ui.bootstrap']);
+    angular.module('plunker', ['ui.bootstrap']);
 var DatepickerDemoCtrl = function ($scope) {
   $scope.today = function() {
     $scope.dt = new Date();
